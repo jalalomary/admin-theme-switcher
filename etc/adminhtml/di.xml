@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="ShopGo\AdminThemeSwitcher\Model\View\Design\Theme\Label" type="Magento\Framework\View\Design\Theme\Label">
+        <arguments>
+            <argument name="labelList" xsi:type="object">ShopGo\AdminThemeSwitcher\Model\ResourceModel\Theme\Collection</argument>
+        </arguments>
+    </virtualType>
+    <type name="ShopGo\AdminThemeSwitcher\Block\System\Config\Form\Field\Regexceptions">
+        <arguments>
+            <argument name="labelClass" xsi:type="string">ShopGo\AdminThemeSwitcher\Model\View\Design\Theme\Label</argument>
+        </arguments>
+    </type>
+</config>
