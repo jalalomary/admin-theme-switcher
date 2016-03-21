@@ -15,15 +15,6 @@
                     <backend_model>ShopGo\AdminThemeSwitcher\Model\Design\Backend\Theme</backend_model>
                     <comment><![CDATA[If no value is specified, the system default will be used. The system default may be modified by third party extensions.]]></comment>
                 </field>
-                <field id="admin_ua_regexp" translate="label comment tooltip" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
-                    <label>Admin Theme User-Agent Exceptions</label>
-                    <frontend_model>ShopGo\AdminThemeSwitcher\Block\System\Config\Form\Field\Regexceptions</frontend_model>
-                    <backend_model>ShopGo\AdminThemeSwitcher\Model\Design\Backend\Exceptions</backend_model>
-                    <comment>
-                        <![CDATA[Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style="font-family:monospace">Firefox<br />/^mozilla/i</span>]]>
-                    </comment>
-                    <tooltip>Find a string in client user-agent header and switch to specific design theme for that browser.</tooltip>
-                </field>
             </group>
         </section>
     </system>

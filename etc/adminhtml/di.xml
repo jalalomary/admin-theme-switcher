@@ -14,9 +14,4 @@
             <argument name="labelList" xsi:type="object">ShopGo\AdminThemeSwitcher\Model\ResourceModel\Theme\Collection</argument>
         </arguments>
     </virtualType>
-    <type name="ShopGo\AdminThemeSwitcher\Block\System\Config\Form\Field\Regexceptions">
-        <arguments>
-            <argument name="labelClass" xsi:type="string">ShopGo\AdminThemeSwitcher\Model\View\Design\Theme\Label</argument>
-        </arguments>
-    </type>
 </config>
