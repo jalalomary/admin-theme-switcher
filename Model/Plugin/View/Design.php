@@ -51,13 +51,15 @@ class Design
      */
     public function afterGetConfigurationDesignTheme(ViewDesign $subject, $result)
     {
+        $theme = $result;
+
         if ($this->_viewDesign->getArea() == Area::AREA_ADMINHTML) {
-            $result = $this->_scopeConfig->getValue(
+            $theme = $this->_scopeConfig->getValue(
                 self::XML_PATH_ADMIN_THEME_ID,
                 ScopeConfigInterface::SCOPE_TYPE_DEFAULT
             );
         }
 
-        return $result;
+        return $theme ? $theme : $result;
     }
 }
