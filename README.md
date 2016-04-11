@@ -12,11 +12,14 @@ Admin Theme Switcher
 
 <h2 id="syn">Synopsis</h2>
 
-TODO
+A module that adds admin theme switching option to Magento 2.
 
 <h2 id="over">Overview</h2>
 
-TODO
+Just like the frontend theme switcher, Admin Theme Switcher module adds an admin theme switching option
+to Magento 2 admin panel.
+The option can be found inside the page: Stores > Configuration > General > Design.
+Under group "Design Theme".
 
 <h2 id="install">Installation</h2>
 
